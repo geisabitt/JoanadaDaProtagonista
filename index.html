@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/envioMensagem.js"></script>
+    <title>Jornada da Protagonista</title>
+  </head>
+  <header>
+    <nav id="menu" class="container-fluid bg-violeta">
+        <h2 class="title-nav">JORNADA DA PROTAGONISTA</h2>
+        <a href="#formulario" class="btn-inscrever">Inscreva-se</a>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <!-- CTA Com Foto-->
+    <section id="ctaComFoto" class="container-fluid bg-claro">        
+            <h2 class="title-script">Seja Protagonista da sua história!</h2>
+            <div class="cta-com-foto container">
+                <div class="img-degrade">
+                    <img src="img/catia-degrade.png" alt="Foto Cátia Nunes">
+                </div>
+                <div class="title-cta">
+                    <h1 class="title-background"><span class="bg-title-branco">JORNADA DA</span>  <span class="bg-title-violeta">PROTAGONISTA</span></h1>
+                </div>
+                <article class="sub-title-cta">
+                    <p>Um evento para as mulheres que buscam auto estima e clareza para se tornarem confiantes e seguras mas sem perder sua essência e autenticidade!</p>
+                </article>
+            </div>        
+    </section>
+    <!-- CTA Data Local e Botoes-->
+    <section id="data-local" class="container-fluid bg-violeta">
+      <div class="data-local container">
+        <div class="title-data-local">
+          <h2>DIA 21 DE JANEIRO NO <span>CENTRO DE PIABETÁ</span></h2>
+      </div>
+      <div class="data-local-btn">
+          <a href="#formulario" class="btn-inscrever">Inscreva-se</a>
+          <a href="#formulario" class="btn-15vagas">Apenas 15 Vagas</a>
+      </div>
+      </div>        
+    </section> 
+    <!-- Visão da Paletrante-->
+    <section id="palestrante" class="container-fluid bg-claro">
+      <div class="palestrante container">
+        <div class="sobre-palestrante">
+          <div class="foto-palestrante"><img src="img/catia-perfil.png" alt="Foto Cátia Nunes"></div>
+          <div class="titulo-palestrante">
+            <h3 class="title">Psicóloga</h3>
+            <h3 class="title-script">Cátia Nunes</h3>
+            <p>Palestrante / Mentora</p>
+          </div>          
+        </div>
+        <div class="visao-evento">
+          <p>Durante o ano eu participei de vários eventos grandes e pequenos. A semelhança é que em todos eles eu sentia muito fortemente no meu coração que gostaria que as mulheres aqui de onde moramos em Piabetá-Magé tivessem a oportunidade de ampliar seus horizontes em uma imersão também.</p>
+          <p>Pensei em fazer um evento online, mas eu quis muito que o primeiro evento fosse presencial justamente porque quero que tenhamos o melhor aqui..</p>
+          <p>Mas atençãooo</p>
+          <p>Só tenho 15 vagas e metade já foram preenchidas</p>
+          <p>Se é seu desejo fazer parte desse grupo de mulheres que buscam autoconfiança e metas mais claras - vem pro meu time.</p>          
+        </div>
+      </div>
+    </section>
+    <!--CTA Seja Protagonista-->
+    <section id="ctaProtagonista" class="container-fluid bg-violeta">
+      <div class="title-protagonista">
+        <h2 class="title-script">Seja Protagonista da sua história!</h2>
+      </div>
+      <div><a href="#formulario" class="btn-inscrever">Inscreva-se</a></div>      
+    </section>
+    <!--Sobre o evento-->
+    <section id="sobreEvento" class="container-fluid bg-claro">
+      <div class="sobre-evento container">
+        <div class="title-sobre"><h2 class="title">Sobre o Evento</h2></div>
+        <div class="descricao-evento">
+          <p>Uma imersão presencial que acontecetá no dia 21 de janeiro - sábado de 14h as 19h no centro de Piabetá</p>
+          <p>Com o investimento de 197 reais no pix ou em 10x de até 25 reais no cartão</p>
+          <p class="btn-ajuste"><a href="#formulario" class="btn-garantir-vaga">Garantir minha vaga agora!</a></p>
+          <p>Você vai ter acesso a:</p>
+          <ul class="lista-descricao">
+            <li class="list-item">Imersão de autoconhecimento</li>
+            <li class="list-item">Identificação e uso de técnicas para superar as sabotagens</li>
+            <li class="list-item">Posicionamento de autoconfiança e amor próprio</li>
+            <li class="list-item">Planejamento dos sonhos e metas</li>
+            <li class="list-item">Coffee Break especial</li>
+            <li class="list-item">Material de apoio</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--Form Pré Cadastro-->
+    <section class="formulario container-fluid br-claro">
+      <div class="container">
+        <form id="formulario">
+          <div>
+            <label>Nome:</label>
+            <input id="nome" type="text" placeholder="Digite seu nome aqui" required />
+          </div>
+          <div>
+            <label>Cidade e Bairro:</label>
+            <input id="cidadeBairro" type="text" placeholder="Digite sua cidade e bairro aqui" />
+          </div>
+          <div>
+            <label>Telefone:</label>
+            <input
+              id="celular"
+              type="number"
+              placeholder="Digite seu Telefone com DDD" />
+          </div>
+          <div>
+            <label>Mensagem:</label>
+            <textarea id="mensagem" type="text">
+Quero ser protagonista da minha história</textarea
+            >
+          </div>
+          <button id="enviarWhatsapp" class="btn-garantir-vaga" onclick="enviarMensagem()">
+            Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </section>
+    <!--Rodapé-->
+    <footer id="rodape" class="container-fluid bg-violeta">
+      <div class="rodape container">
+        <h2 class="title">Redes Sociais</h2>
+        <div class="redes-sociais">
+          <div class="ajuste-social">
+            <img src="img/instagram.svg" alt="Logo Instagram">
+            <a href="https://www.instagram.com/catianunesoficial/">@catianunesoficial</a>
+          </div>
+          <div class="ajuste-social">
+            <img src="img/instagram.svg" alt="Logo Instagram">
+            <a href="https://www.instagram.com/apsitaonpodcast/">@apsitaonpodcast</a>
+          </div>
+        </div>
+        <p class="copy">JORNADA DA PROTAGONISTA &copy; 2023 <span>design by <a href="https://geisabitt.github.io/gbwAgency/">Geisa Bittencourt</a></span></p>
+      </div>
+    </footer>
+    <!--Provimo-->
+  </body>
+</html>

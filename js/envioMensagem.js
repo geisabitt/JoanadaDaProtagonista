@@ -1,5 +1,4 @@
-function enviarMensagem(e) {
-  e.preventDefault();
+function enviarMensagem() {
   var nome = document.querySelector("#nome").value;
   nome = window.encodeURIComponent(nome);
 
@@ -15,7 +14,8 @@ function enviarMensagem(e) {
     alert("É obrigatório informar o seu Nome");
     nome.focus();
   } else {
-    let urlApi = "https://api.whatsapp.com/send?phone=5521971392698&amp;text=";
+    let urlApi =
+      "http://api.whatsapp.com/send?1=pt_BR&phone=5524988512465&text=";
 
     window.open(
       urlApi +

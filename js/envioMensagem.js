@@ -15,7 +15,7 @@ function enviarMensagem() {
     nome.focus();
   } else {
     let urlApi =
-      "http://api.whatsapp.com/send?1=pt_BR&phone=5524988512465&text=";
+      "http://api.whatsapp.com/send?1=pt_BR&phone=5521971392698&text=";
 
     window.open(
       urlApi +

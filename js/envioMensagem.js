@@ -14,7 +14,7 @@ function enviarMensagem() {
     alert("É obrigatório informar o seu Nome");
     nome.focus();
   } else {
-    let urlApi = "https://api.whatsapp.com/send?phone=5521982708329&text=";
+    let urlApi = "https://api.whatsapp.com/send?phone=55224988512465&text=";
 
     window.open(
       urlApi +

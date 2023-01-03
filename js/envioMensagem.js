@@ -1,4 +1,5 @@
-function enviarMensagem() {
+function enviarMensagem(e) {
+  e.preventDefault();
   var nome = document.querySelector("#nome").value;
   nome = window.encodeURIComponent(nome);
 

@@ -58,6 +58,12 @@ a {
     font-size: 20px;
   }
 }
+.whatsapp img {
+  width: 50px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
 
 /*menu*/
 #menu {

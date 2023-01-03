@@ -14,7 +14,7 @@ function enviarMensagem() {
     alert("É obrigatório informar o seu Nome");
     nome.focus();
   } else {
-    let urlApi = "https://api.whatsapp.com/send?phone=5524988512465&text=";
+    let urlApi = "https://api.whatsapp.com/send?phone=5524988512465&amp;text=";
 
     window.open(
       urlApi +
@@ -35,3 +35,4 @@ function enviarMensagem() {
 
   //Obs.. use "_system", no lugar de blank, caso você esteja usando Phonegap / Cordova / Ionic ou qualquer um baseado em webview;
 }
+//<a data-v-11cdc410="" href="https://api.whatsapp.com/send?phone=+5521991408871&amp;text=Olá,%20estou%20com%20dúvida%20na%20oferta%20Principal%20do%20produto%20Saúde Emocional - Pacote Diamante" target="_blank" class="float"><i data-v-11cdc410="" class="fa fa-whatsapp my-float"></i></a>
